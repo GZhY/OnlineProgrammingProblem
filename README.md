@@ -1,4 +1,4 @@
-# hiho
+# hihoCoder
 http://hihocoder.com/ 的AC代码以及题解
 ## Contest
 各种比赛
