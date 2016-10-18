@@ -2,7 +2,7 @@
 * @Author: zy
 * @Date:   2016-10-18 22:27:45
 * @Last Modified by:   zy
-* @Last Modified time: 2016-10-18 23:55:35
+* @Last Modified time: 2016-10-18 23:58:26
 */
 
 /**
@@ -15,6 +15,9 @@
  * }
  */
 public class Solution {
+	/**
+	 * Runtime: 3 ms
+	 */
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> intList = new ArrayList<>();
         if(root == null) return intList;
