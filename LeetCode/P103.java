@@ -2,7 +2,7 @@
 * @Author: zy
 * @Date:   2016-10-19 14:53:54
 * @Last Modified by:   zy
-* @Last Modified time: 2016-10-19 14:57:54
+* @Last Modified time: 2016-10-20 21:43:30
 */
 
 /**
@@ -26,6 +26,7 @@ public class Solution {
         if (result.size() < level + 1) 
             result.add(new LinkedList<Integer>());
         if(level%2 != 0)
+            //result.get(level).listIterator().add(node.val); 3ms
             ((LinkedList<Integer>)result.get(level)).addFirst(node.val);
         else result.get(level).add(node.val);
         zigzagLevelRecursion(node.left, result, level + 1);
