@@ -2,16 +2,18 @@
 * @Author: GZhY
 * @Date:   2016-10-21 23:46:52
 * @Last Modified by:   GZhY
-* @Last Modified time: 2016-10-21 23:51:24
+* @Last Modified time: 2016-10-21 23:56:46
 */
 
 public class Solution {
 	public List<Integer> nextCombine(List<Integer> iList, int n, int k) {
 		for (int i = k-1; i >= 0; --i) {
 			int nextInt = iList.get(i) + 1;
-			if (nextInt <= n && (!iList.contains(nextInt)))
+			if (nextInt <= n && (!iList.contains(nextInt))){
 				for (int j = i; j < k; ++j)
 					iList.set(j, nextInt + j - i);
+				break;
+			}
 		}
 		return new ArrayList<Integer>(iList);
 	}
