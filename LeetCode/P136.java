@@ -2,9 +2,10 @@
 * @Author: GZhY
 * @Date:   2016-10-22 00:25:13
 * @Last Modified by:   GZhY
-* @Last Modified time: 2016-10-22 01:02:43
+* @Last Modified time: 2016-10-22 01:07:45
 */
 
+// beats 4.88%, need to improve
 public class java {
 	public int singleNumber(int[] nums) {
 		Map<Integer, Integer> map = new HashMap<>();
