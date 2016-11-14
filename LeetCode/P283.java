@@ -2,9 +2,10 @@
 * @Author: GZhY
 * @Date:   2016-11-14 23:52:09
 * @Last Modified by:   GZhY
-* @Last Modified time: 2016-11-14 23:55:12
+* @Last Modified time: 2016-11-14 23:57:25
 */
 
+// Runtime:0ms
 public class Solution {
     public void moveZeroes(int[] nums) {
         if(nums == null || nums.length < 2) return;
