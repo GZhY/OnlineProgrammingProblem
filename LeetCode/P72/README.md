@@ -18,9 +18,7 @@ $$
 ## 代码
 ### 递归解法
 递归解法比较直观，代码中的省略公共前缀的小技巧是利用了
-$$
-d(uv, uw) = d(v, w)
-$$
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= d(uv, uw) = d(v, w)" style="border:none;">
 
 因为省略公共前缀是在线性时间内完成的，所以可以用此进行优化。
 
