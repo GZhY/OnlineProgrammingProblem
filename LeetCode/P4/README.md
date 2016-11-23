@@ -98,7 +98,7 @@ Thank @Quentin.chen , him pointed out that: i < m ==> j > 0 and i > 0 ==> j < n 
 m <= n, i < m ==> j = (m+n+1)/2 - i > (m+n+1)/2 - m >= (2*m+1)/2 - m >= 0    
 m <= n, i > 0 ==> j = (m+n+1)/2 - i < (m+n+1)/2 <= (2*n+1)/2 <= n
 ```  
-So in situation <b> and <c>, we don't need to check whether j > 0 and whether j < n.  
+So in situation < b > and < c >, we don't need to check whether j > 0 and whether j < n.  
 Below is the accepted code:
 ``` python
  def median(A, B):
