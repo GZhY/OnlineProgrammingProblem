@@ -2,10 +2,11 @@
 * @Author: GZhY
 * @Time:   2017-01-14 19:51:00
 * @Last Modified by:   GZhY
-* @Last Modified time: 2017-01-15 23:59:30
+* @Last Modified time: 2017-01-16 00:03:45
 */
 
 public class Solution {
+    //Runtime:158ms Beats:38.32%
     public int islandPerimeter(int[][] grid) {
         int islands = 0, neighbours = 0;
         for (int i = 0; i < grid.length; i++) {
