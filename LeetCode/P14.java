@@ -2,9 +2,10 @@
 * @Author: GZhY
 * @Date:   2017-01-28 21:47:09
 * @Last Modified by:   GZhY
-* @Last Modified time: 2017-01-28 21:47:18
+* @Last Modified time: 2017-01-28 21:49:04
 */
 
+// Runtime:15ms, Beats:17.50%
 public class Solution {
     public String longestCommonPrefix(String str1, String str2) {
         int index = 0;
