@@ -2,12 +2,12 @@
 * @Author: GZhY
 * @Time:   2017-03-27 19:57:45
 * @Last Modified by:   GZhY
-* @Last Modified time: 2017-03-27 20:02:37
+* @Last Modified time: 2017-03-27 20:05:19
 */
 
 public class Solution {
 
-	// WA "ab" \n ".*c"
+	// WA "ab" \n ".*c" 靠穷举所有的可能的做法不现实，WA多次，总忽略一些情况，不是正解。
     public boolean isMatch(String s, String p) {
         if("".equals(p)) return "".equals(s) ? true : false;
         if(s.length() > 0 && (s.charAt(0) == p.charAt(0) || p.charAt(0) == '.')){
